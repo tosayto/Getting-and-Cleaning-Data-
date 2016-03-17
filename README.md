@@ -10,12 +10,15 @@
 
 ###Loading data
 train <- read.table("UCI HAR Dataset/train/X_train.txt")
+
 test <- read.table("UCI HAR Dataset/test/X_test.txt")
 
 train.activity.id <- read.table("UCI HAR Dataset/train/y_train.txt")
+
 train_subject_id <- read.table("UCI HAR Dataset/train/subject_train.txt")
 
 test.activity.id <- read.table("UCI HAR Dataset/test/y_test.txt")
+
 test.subject.id <- read.table("UCI HAR Dataset/test/subject_test.txt")
 
 
