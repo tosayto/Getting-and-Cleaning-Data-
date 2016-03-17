@@ -91,7 +91,9 @@ levels(train_and_test_rows_removed$activity_id) <- c("WALKING", "WALKING_UPSTAIR
 #####Each column name is replaced with discriptive names
 #####Although some words not discriptive you should read the codebook.
 for(i in names(train_and_test_rows_removed)){
+
   temp <- i
+  
   //if column name begins with t replace it with t. (time)
   
   if(grepl("^t", i)){
