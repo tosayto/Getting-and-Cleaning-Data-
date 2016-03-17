@@ -26,7 +26,7 @@ test.subject.id <- read.table("UCI HAR Dataset/test/subject_test.txt")
 train_column_names_df = read.table("UCI HAR Dataset/features.txt")
 
 ####train data
-##Adding column names to training data
+####Adding column names to training data
 colnames(train)<- train_column_names_df[,"V2"]
 
 
@@ -43,7 +43,7 @@ train.and.activity.id.and.subject.id <-cbind(train.and.activity.id, train_subjec
 names(train.and.activity.id.and.subject.id)[names(train.and.activity.id.and.subject.id) == 'V1'] <- 'subject.id'
 
 ####test data
-####Adding column names to training data
+#####Adding column names to training data
 colnames(test)<- train_column_names_df[,"V2"]
 
 
