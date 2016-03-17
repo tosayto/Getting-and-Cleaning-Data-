@@ -165,6 +165,7 @@ for(i in names(train_and_test_rows_removed)){
   if(grepl("-X", i)){
     temp <- sub("-X",".X", temp)
   }
+  
   //if it contains -Y replace it with .Y
   
   if(grepl("-Y", i)){
