@@ -26,7 +26,7 @@ test.subject.id <- read.table("UCI HAR Dataset/test/subject_test.txt")
 train_column_names_df = read.table("UCI HAR Dataset/features.txt")
 
 ####train data
-####Adding column names to training data
+#####Adding column names to training data
 colnames(train)<- train_column_names_df[,"V2"]
 
 
