@@ -200,7 +200,9 @@ t<-colnames(dt)
 
 expr<-NULL
 for(i in 1:66){
+
    expr<- parse(text=paste(t[i],".activity.id.avg", ":=mean(",t[i],")", sep = ""))
+   
   dt[, eval(expr),by=activity.id]
   
   
@@ -209,8 +211,11 @@ for(i in 1:66){
 ####Calculating mean of each variable per subject and adding to dataset
 
 expr<-NULL
+
 for(i in 1:66){
+
   expr<- parse(text=paste(t[i],".subject.id.avg", ":=mean(",t[i],")", sep = ""))
+  
   dt[, eval(expr),by=subject.id]
   
   
