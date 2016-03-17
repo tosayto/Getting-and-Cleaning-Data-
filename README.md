@@ -222,7 +222,7 @@ for(i in 1:66){
 }
 
 
-### 6 OUtput the tidy dataset
+### 6 Output the tidy dataset
 
 #####writing tidy dataset to file "tidy_data.txt".
 write.table(dt, file="tidy_data.txt", col.names = FALSE, row.names = FALSE)
