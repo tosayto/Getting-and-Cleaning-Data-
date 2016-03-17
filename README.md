@@ -37,12 +37,12 @@ colnames(train)<- train_column_names_df[,"V2"]
 train.and.activity.id <- cbind(train, train.activity.id) 
 
 
-#####renaming column name to 'activity_id
+#####renaming column name to 'activity.id
 names(train.and.activity.id)[names(train.and.activity.id) == 'V1'] <- 'activity.id'
 
 #####Adding subject column to training dataset
 train.and.activity.id.and.subject.id <-cbind(train.and.activity.id, train_subject_id)
-#####renaming column name to 'activity_id
+#####renaming column name to 'subject.id
 names(train.and.activity.id.and.subject.id)[names(train.and.activity.id.and.subject.id) == 'V1'] <- 'subject.id'
 
 ####test data
