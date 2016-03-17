@@ -60,7 +60,7 @@ names(test.and.activity.id)[names(test.and.activity.id) == 'V1'] <- 'activity.id
 
 #####Adding subject column to test dataset
 test.and.activity.id_and_subject_id <-cbind(test.and.activity.id, test.subject.id)
-#####renaming column name to 'activity_id
+#####renaming column name to 'subject.id
 names(test.and.activity.id_and_subject_id)[names(test.and.activity.id_and_subject_id) == 'V1'] <- 'subject.id'
 
 ####Merge train and test datasets with rbind
