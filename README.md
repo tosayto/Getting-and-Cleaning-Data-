@@ -39,7 +39,7 @@ names(train.and.activity.id)[names(train.and.activity.id) == 'V1'] <- 'activity.
 
 #####Adding subject column to training dataset
 train.and.activity.id.and.subject.id <-cbind(train.and.activity.id, train_subject_id)
-####renaming column name to 'activity_id
+#####renaming column name to 'activity_id
 names(train.and.activity.id.and.subject.id)[names(train.and.activity.id.and.subject.id) == 'V1'] <- 'subject.id'
 
 ####test data
@@ -90,69 +90,84 @@ levels(train_and_test_rows_removed$activity_id) <- c("WALKING", "WALKING_UPSTAIR
 for(i in names(train_and_test_rows_removed)){
   temp <- i
   //if column name begins with t replace it with t. (time)
+  
   if(grepl("^t", i)){
     temp <- sub("^t","t.", temp)
   }
+  
   //if it begins with f replace it with fft. (fast fourier transform)
+  
   if(grepl("^f", i)){
     temp <- sub("^f","fft.", i)
   }
   
   //if it contains Body replace it with body_
+  
   if(grepl("Body", i)){
     temp <- gsub("Body","body.", temp)
   }
   
   //if it contains Acc replace it with acc. (accelerometer)
+  
   if(grepl("Acc", i)){
     temp <- sub("Acc","acc.", temp)
   }
   
   //if it contains Gyro replace it with gyro. (gyroscope)
+  
   if(grepl("Gyro", i)){
     temp <- sub("Gyro","gyro.", temp)
   }
   
   //if it contains Jerk replace it with jerk.
+  
   if(grepl("Jerk", i)){
     temp <- sub("Jerk","jerk.", temp)
   }
   
   //if it contains Mag replace it with mag. (magnitude)
+  
   if(grepl("Mag", i)){
     temp <- sub("Mag","mag.", temp)
   }
   
  //if it contains Gravity replace it with gravity.
+ 
   if(grepl("Gravity", i)){
     temp <- sub("Gravity","gravity.", temp)
   }
   
   //if it contains -mean replace it with mean
+  
   if(grepl("mean", i)){
     temp <- sub("-mean","mean", temp)
   }
   
   //if it contains -std replace it with std (Standar Deviation)
+  
   if(grepl("std", i)){
     temp <- sub("-std","std", temp)
   }
   
   //if it contains () replace it with nothing
+  
   if(grepl("\\(\\)", i)){
     temp <- sub("\\(\\)","", temp)
   }
   
   //if it contains -X replace it with .X
+  
   if(grepl("-X", i)){
     temp <- sub("-X",".X", temp)
   }
   //if it contains -Y replace it with .Y
+  
   if(grepl("-Y", i)){
     temp <- sub("-Y",".Y", temp)
   }
   
   //if it contains -Z replace it with .Z
+  
   if(grepl("-Z", i)){
     temp <- sub("-Z",".Z", temp)
   }
