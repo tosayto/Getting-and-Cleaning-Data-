@@ -1,12 +1,9 @@
-# Getting-and-Cleaning-Data
+#Author:tosayto
+#Date:2016-03-16
 
-
-##Author:tosayto
-##Date:2016-03-16
-
-###Source of input:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-###Software version: RStudio Version 0.99.491 (R x64 3.2.2)
-###Required packeges:data.table version 1.9.6
+#Source of input:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+#Software version: RStudio Version 0.99.491 (R x64 3.2.2)
+#Required packeges:data.table version 1.9.6
 
 #Loading data
 train <- read.table("UCI HAR Dataset/train/X_train.txt")
@@ -24,133 +21,136 @@ test.subject.id <- read.table("UCI HAR Dataset/test/subject_test.txt")
 #Loading column names
 train_column_names_df = read.table("UCI HAR Dataset/features.txt")
 
-##train
+#train
 #Adding column names to training data
 colnames(train)<- train_column_names_df[,"V2"]
 
 
-###Adding activity column to training dataset
+#Adding activity column to training dataset
 train.and.activity.id <- cbind(train, train.activity.id) 
+#dim(train.and.activity.id)
 
-
-###renaming column name to 'activity_id
+#renaming column name to 'activity_id
 names(train.and.activity.id)[names(train.and.activity.id) == 'V1'] <- 'activity.id'
+#head(train.and.activity.id$activity_id)
 
-###Adding subject column to training dataset
+#Adding subject column to training dataset
 train.and.activity.id.and.subject.id <-cbind(train.and.activity.id, train_subject_id)
-###renaming column name to 'activity_id
+#renaming column name to 'activity_id
 names(train.and.activity.id.and.subject.id)[names(train.and.activity.id.and.subject.id) == 'V1'] <- 'subject.id'
 
-##test
-###Adding column names to training data
+#test
+#Adding column names to training data
 colnames(test)<- train_column_names_df[,"V2"]
+#dim(train)
 
-
-###Adding activity column to test dataset
+#Adding activity column to test dataset
 test.and.activity.id <- cbind(test, test.activity.id) 
+#dim(train.and.activity.id)
+#head(test.and.activity.id$V1)
 
-
-###renaming column name to 'activity.id
+#renaming column name to 'activity.id
 names(test.and.activity.id)[names(test.and.activity.id) == 'V1'] <- 'activity.id'
+#head(train.and.activity.id$activity_id)
 
-
-###Adding subject column to test dataset
+#Adding subject column to test dataset
 test.and.activity.id_and_subject_id <-cbind(test.and.activity.id, test.subject.id)
-###renaming column name to 'activity_id
+#renaming column name to 'activity_id
 names(test.and.activity.id_and_subject_id)[names(test.and.activity.id_and_subject_id) == 'V1'] <- 'subject.id'
 
 ##Merge train and test datasets with rbind
 train_and_test <- rbind(train.and.activity.id.and.subject.id, test.and.activity.id_and_subject_id)
-
+#dim(train_and_test)
 
 
 #2 Extracts only the measurements on the mean and standard deviation for each measurement.
-### create a vector that contain strings to remove columns from dataset
+# create a vector that contain strings to remove columns from dataset
 to_remove_column_names <- c("mad()", "max()", "min()", "sma()", "energy()", "iqr()", "entropy()", "arCoeff()", 
                             "correlation()", "maxInds()", "meanFreq()", "skewness()", "kurtosis()", "bandsEnergy()",
                             "angle()")
 
-###remove columns from dataset
+#remove columns from dataset
 train_and_test_rows_removed<-train_and_test[,-grep(paste(to_remove_column_names,collapse = "|"), names(train_and_test))]
 
 
 #3 Uses descriptive activity names to name the activities in the data set
 
-
+#str(train_and_test_rows_removed)
 train_and_test_rows_removed[,"activity_id"] <- data.frame(apply(train_and_test_rows_removed["activity_id"], 2, as.factor))
 levels(train_and_test_rows_removed$activity_id) <- c("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING")
-
+#str(train_and_test_rows_removed)
+head(train_and_test_rows_removed)
 
 #4 Appropriately labels the data set with descriptive variable names.
+#Each column name is replaced with discriptive names
+#Although some words not discriptive you should read the codebook.
 
-###Each column name is replaced with discriptive names
-###Although some words not discriptive you should read the codebook.
 for(i in names(train_and_test_rows_removed)){
   temp <- i
-  ###if column name begins with t replace it with t. (time)
+  #if column name begins with t replace it with t. (time)
   if(grepl("^t", i)){
     temp <- sub("^t","t.", temp)
   }
-  ###if it begins with f replace it with fft. (fast fourier transform)
+  #if it begins with f replace it with fft. (fast fourier transform)
   if(grepl("^f", i)){
     temp <- sub("^f","fft.", i)
   }
   
-  ###if it contains Body replace it with body_
+  #if it contains Body replace it with body_
   if(grepl("Body", i)){
     temp <- gsub("Body","body.", temp)
   }
   
-  ###if it contains Acc replace it with acc. (accelerometer)
+  #if it contains Acc replace it with acc. (accelerometer)
   if(grepl("Acc", i)){
     temp <- sub("Acc","acc.", temp)
   }
   
-  ###if it contains Gyro replace it with gyro. (gyroscope)
+  #if it contains Gyro replace it with gyro. (gyroscope)
   if(grepl("Gyro", i)){
     temp <- sub("Gyro","gyro.", temp)
   }
   
-  ###if it contains Jerk replace it with jerk.
+  #if it contains Jerk replace it with jerk.
   if(grepl("Jerk", i)){
     temp <- sub("Jerk","jerk.", temp)
   }
   
-  ###if it contains Mag replace it with mag. (magnitude)
+  #if it contains Mag replace it with mag. (magnitude)
   if(grepl("Mag", i)){
     temp <- sub("Mag","mag.", temp)
   }
   
- ###if it contains Gravity replace it with gravity.
+  #if it contains Gravity replace it with gravity.
   if(grepl("Gravity", i)){
     temp <- sub("Gravity","gravity.", temp)
   }
   
-  ###if it contains -mean replace it with mean
+  #if it contains -mean replace it with mean
   if(grepl("mean", i)){
     temp <- sub("-mean","mean", temp)
   }
   
-  ###if it contains -std replace it with std (Standar Deviation)
+  #if it contains -std replace it with std (Standar Deviation)
   if(grepl("std", i)){
     temp <- sub("-std","std", temp)
   }
   
-  ###if it contains () replace it with nothing
+  #if it contains () replace it with nothing
   if(grepl("\\(\\)", i)){
     temp <- sub("\\(\\)","", temp)
   }
   
-  ###if it contains -X replace it with .X
+  #if it contains -X replace it with .X
   if(grepl("-X", i)){
     temp <- sub("-X",".X", temp)
   }
-  ###if it contains -Y replace it with .Y
+  #if it contains -Y replace it with .Y
   if(grepl("-Y", i)){
     temp <- sub("-Y",".Y", temp)
   }
   
-  ###if it contains -Z replace it with .Z
+  #if it contains -Z replace it with .Z
   if(grepl("-Z", i)){
     temp <- sub("-Z",".Z", temp)
   }
@@ -163,17 +163,17 @@ for(i in names(train_and_test_rows_removed)){
 tidy_data <- train_and_test_rows_removed
 
 
-###install.packages("data.table")
+#install.packages("data.table")
 library(data.table)
 
-###Converting a data.frame to data.table
+#Converting a data.frame to data.table
 dt<-as.data.table(tidy_data)
 
 
-###putting colomn names in a variable
+#putting colomn names in a variable
 t<-colnames(dt)
 
-##Calculating mean of each variable per activity and adding to dataset
+#Calculating mean of each variable per activity and adding to dataset
 expr<-NULL
 for(i in 1:66){
    expr<- parse(text=paste(t[i],".activity.id.avg", ":=mean(",t[i],")", sep = ""))
@@ -182,7 +182,7 @@ for(i in 1:66){
   
 }
 
-##Calculating mean of each variable per subject and adding to dataset
+#Calculating mean of each variable per subject and adding to dataset
 expr<-NULL
 for(i in 1:66){
   expr<- parse(text=paste(t[i],".subject.id.avg", ":=mean(",t[i],")", sep = ""))
@@ -192,7 +192,9 @@ for(i in 1:66){
 }
 
 
+
+
 # 6 OUtput the tidy dataset
-###writing tidy dataset to file "tidy_data.txt".
+#writing tidy dataset to file "tidy_data.txt".
 write.table(dt, file="tidy_data.txt", col.names = FALSE, row.names = FALSE)
 
