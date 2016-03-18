@@ -1,0 +1,1579 @@
+ t.body.acc.mean.X  
+ Min.   :-1.0000  
+ 1st Qu.: 0.2626    
+ Median : 0.2772   
+ Mean   : 0.2743  
+ 3rd Qu.: 0.2884    
+ Max.   : 1.0000    
+ 
+ t.body.acc.mean.Y
+ Min.   :-1.00000  
+ 1st Qu.:-0.02490 
+  Median :-0.01716 
+  Mean   :-0.01774  
+ 3rd Qu.:-0.01062 
+ Max.   : 1.00000 
+ 
+ t.body.acc.mean.Z  
+ Min.   :-1.00000  
+ 1st Qu.:-0.12102   
+ Median :-0.10860    
+ Mean   :-0.10892    
+ 3rd Qu.:-0.09759     
+ Max.   : 1.00000    
+
+ t.body.acc.std.X 
+ Min.   :-1.0000  
+ 1st Qu.:-0.9924  
+ Median :-0.9430 
+ Mean   :-0.6078 
+ 3rd Qu.:-0.2503
+ Max.   : 1.0000
+ 
+ t.body.acc.std.Y    
+ Min.   :-1.00000  
+ 1st Qu.:-0.97699     
+ Median :-0.83503    
+ Mean   :-0.51019    
+ 3rd Qu.:-0.05734     
+ Max.   : 1.00000    
+
+ t.body.acc.std.Z
+ Min.   :-1.0000  
+ 1st Qu.:-0.9791
+ Median :-0.8508 
+ Mean   :-0.6131
+ 3rd Qu.:-0.2787
+ Max.   : 1.0000 
+ t.gravity.acc.mean.X 
+ Min.   :-1.0000         
+ 1st Qu.: 0.8117         
+ Median : 0.9218         
+ Mean   : 0.6692       
+ 3rd Qu.: 0.9547         
+ Max.   : 1.0000       
+
+ t.gravity.acc.mean.Y
+ Min.   :-1.000000
+ 1st Qu.:-0.242943
+ Median :-0.143551
+ Mean   : 0.004039  
+ 3rd Qu.: 0.118905
+ Max.   : 1.000000
+ 
+ t.gravity.acc.mean.Z 
+ Min.   :-1.00000        
+ 1st Qu.:-0.11671         
+ Median : 0.03680         
+ Mean   : 0.09215         
+ 3rd Qu.: 0.21621      
+ Max.   : 1.00000        
+
+ t.gravity.acc.std.X
+ Min.   :-1.0000
+ 1st Qu.:-0.9949
+ Median :-0.9819
+ Mean   :-0.9652
+ 3rd Qu.:-0.9615   
+ Max.   : 1.0000 
+
+ t.gravity.acc.std.Y 
+ Min.   :-1.0000         
+ 1st Qu.:-0.9913         
+ Median :-0.9759         
+ Mean   :-0.9544         
+ 3rd Qu.:-0.9464         
+ Max.   : 1.0000         
+ 
+ t.gravity.acc.std.Z 
+ Min.   :-1.0000 
+ 1st Qu.:-0.9866 
+ Median :-0.9665 
+ Mean   :-0.9389 
+ 3rd Qu.:-0.9296 
+ Max.   : 1.0000 
+ 
+ t.body.acc.jerk.mean.X
+ Min.   :-1.00000      
+ 1st Qu.: 0.06298      
+ Median : 0.07597      
+ Mean   : 0.07894      
+ 3rd Qu.: 0.09131      
+ Max.   : 1.00000      
+ 
+ t.body.acc.jerk.mean.Y
+ Min.   :-1.000000     
+ 1st Qu.:-0.018555     
+ Median : 0.010753     
+ Mean   : 0.007948     
+ 3rd Qu.: 0.033538     
+ Max.   : 1.000000     
+ 
+ t.body.acc.jerk.mean.Z 
+ Min.   :-1.000000            
+ 1st Qu.:-0.031552            
+ Median :-0.001159            
+ Mean   :-0.004675            
+ 3rd Qu.: 0.024578            
+ Max.   : 1.000000            
+ 
+ t.body.acc.jerk.std.X
+ Min.   :-1.0000
+ 1st Qu.:-0.9913
+ Median :-0.9513
+ Mean   :-0.6398
+ 3rd Qu.:-0.2912
+ Max.   : 1.0000
+ 
+ t.body.acc.jerk.std.Y 
+ Min.   :-1.0000             
+ 1st Qu.:-0.9850             
+ Median :-0.9250             
+ Mean   :-0.6080            
+ 3rd Qu.:-0.2218             
+ Max.   : 1.0000       
+
+ t.body.acc.jerk.std.Z
+ Min.   :-1.0000
+ 1st Qu.:-0.9892
+ Median :-0.9543
+ Mean   :-0.7628 
+ 3rd Qu.:-0.5485
+ Max.   : 1.0000 
+ 
+ t.body.gyro.mean.X 
+ Min.   :-1.00000     
+ 1st Qu.:-0.04579     
+ Median :-0.02776     
+ Mean   :-0.03098     
+ 3rd Qu.:-0.01058     
+ Max.   : 1.00000     
+ 
+ t.body.gyro.mean.Y
+ Min.   :-1.00000
+ 1st Qu.:-0.10399
+ Median :-0.07477
+ Mean   :-0.07472
+ 3rd Qu.:-0.05110
+ Max.   : 1.00000
+  
+ t.body.gyro.mean.Z 
+ Min.   :-1.00000     
+ 1st Qu.: 0.06485     
+ Median : 0.08626     
+ Mean   : 0.08836     
+ 3rd Qu.: 0.11044     
+ Max.   : 1.00000     
+ 
+ t.body.gyro.std.X
+ Min.   :-1.0000
+ 1st Qu.:-0.9872
+ Median :-0.9016
+ Mean   :-0.7212
+ 3rd Qu.:-0.4822
+ Max.   : 1.0000
+ 
+ t.body.gyro.std.Y 
+ Min.   :-1.0000     
+ 1st Qu.:-0.9819     
+ Median :-0.9106     
+ Mean   :-0.6827     
+ 3rd Qu.:-0.4461     
+ Max.   : 1.0000     
+ 
+ t.body.gyro.std.Z
+ Min.   :-1.0000
+ 1st Qu.:-0.9850
+ Median :-0.8819
+ Mean   :-0.6537
+ 3rd Qu.:-0.3379
+ Max.   : 1.0000
+ 
+ t.body.gyro.jerk.mean.X
+ Min.   :-1.00000       
+ 1st Qu.:-0.11723       
+ Median :-0.09824       
+ Mean   :-0.09671       
+ 3rd Qu.:-0.07930       
+ Max.   : 1.00000       
+ t.body.gyro.jerk.mean.Y
+ Min.   :-1.00000       
+ 1st Qu.:-0.05868       
+ Median :-0.04056       
+ Mean   :-0.04232       
+ 3rd Qu.:-0.02521       
+ Max.   : 1.00000       
+ t.body.gyro.jerk.mean.Z
+ Min.   :-1.00000       
+ 1st Qu.:-0.07936       
+ Median :-0.05455       
+ Mean   :-0.05483       
+ 3rd Qu.:-0.03168       
+ Max.   : 1.00000       
+ t.body.gyro.jerk.std.X
+ Min.   :-1.0000       
+ 1st Qu.:-0.9907       
+ Median :-0.9348       
+ Mean   :-0.7313       
+ 3rd Qu.:-0.4865       
+ Max.   : 1.0000       
+ t.body.gyro.jerk.std.Y
+ Min.   :-1.0000       
+ 1st Qu.:-0.9922       
+ Median :-0.9548       
+ Mean   :-0.7861       
+ 3rd Qu.:-0.6268       
+ Max.   : 1.0000       
+ t.body.gyro.jerk.std.Z 
+ Min.   :-1.0000            
+ 1st Qu.:-0.9926            
+ Median :-0.9503            
+ Mean   :-0.7399            
+ 3rd Qu.:-0.5097            
+ Max.   : 1.0000            
+
+t.body.acc.mag.mean
+Min.   :-1.0000
+1st Qu.:-0.9819
+Median :-0.8746
+Mean   :-0.5482
+3rd Qu.:-0.1201
+Max.   : 1.0000
+
+ t.body.acc.mag.std 
+ Min.   :-1.0000           
+ 1st Qu.:-0.9822          
+ Median :-0.8437           
+ Mean   :-0.5912           
+ 3rd Qu.:-0.2423           
+ Max.   : 1.0000           
+ 
+ t.gravity.acc.mag.mean
+ Min.   :-1.0000
+ 1st Qu.:-0.9819 
+ Median :-0.8746
+ Mean   :-0.5482
+ 3rd Qu.:-0.1201
+ Max.   : 1.0000
+ 
+ t.gravity.acc.mag.std
+ Min.   :-1.0000      
+ 1st Qu.:-0.9822      
+ Median :-0.8437      
+ Mean   :-0.5912      
+ 3rd Qu.:-0.2423      
+ Max.   : 1.0000      
+ t.body.acc.jerk.mag.mean
+ Min.   :-1.0000         
+ 1st Qu.:-0.9896         
+ Median :-0.9481         
+ Mean   :-0.6494         
+ 3rd Qu.:-0.2956         
+ Max.   : 1.0000         
+ t.body.acc.jerk.mag.std 
+ Min.   :-1.0000              
+ 1st Qu.:-0.9907              
+ Median :-0.9288              
+ Mean   :-0.6278              
+ 3rd Qu.:-0.2733              
+ Max.   : 1.0000              
+ 
+ t.body.gyro.mag.mean
+ Min.   :-1.0000
+ 1st Qu.:-0.9781
+ Median :-0.8223
+ Mean   :-0.6052
+ 3rd Qu.:-0.2454
+ Max.   : 1.0000
+ 
+ t.body.gyro.mag.std
+ Min.   :-1.0000    
+ 1st Qu.:-0.9775    
+ Median :-0.8259    
+ Mean   :-0.6625    
+ 3rd Qu.:-0.3940    
+ Max.   : 1.0000    
+ t.body.gyro.jerk.mag.mean
+ Min.   :-1.0000          
+ 1st Qu.:-0.9923          
+ Median :-0.9559          
+ Mean   :-0.7621          
+ 3rd Qu.:-0.5499          
+ Max.   : 1.0000          
+ t.body.gyro.jerk.mag.std 
+ Min.   :-1.0000              
+ 1st Qu.:-0.9922              
+ Median :-0.9403              
+ Mean   :-0.7780              
+ 3rd Qu.:-0.6093              
+ Max.   : 1.0000              
+ 
+ fft.body.acc.mean.X
+ Min.   :-1.0000
+ 1st Qu.:-0.9913
+ Median :-0.9456
+ Mean   :-0.6228
+ 3rd Qu.:-0.2646
+ Max.   : 1.0000
+ 
+ fft.body.acc.mean.Y 
+ Min.   :-1.0000         
+ 1st Qu.:-0.9792         
+ Median :-0.8643         
+ Mean   :-0.5375         
+ 3rd Qu.:-0.1032         
+ Max.   : 1.0000         
+ 
+ fft.body.acc.mean.Z
+ Min.   :-1.0000
+ 1st Qu.:-0.9832
+ Median :-0.8954
+ Mean   :-0.6650
+ 3rd Qu.:-0.3662
+ Max.   : 1.0000
+  
+ fft.body.acc.std.X 
+ Min.   :-1.0000      
+ 1st Qu.:-0.9929      
+ Median :-0.9416      
+ Mean   :-0.6034      
+ 3rd Qu.:-0.2493      
+ Max.   : 1.0000     
+ 
+ fft.body.acc.std.Y
+ Min.   :-1.00000
+ 1st Qu.:-0.97689
+ Median :-0.83261
+ Mean   :-0.52842
+ 3rd Qu.:-0.09216
+ Max.   : 1.00000 
+  
+ fft.body.acc.std.Z 
+ Min.   :-1.0000             
+ 1st Qu.:-0.9780             
+ Median :-0.8398             
+ Mean   :-0.6179             
+ 3rd Qu.:-0.3023             
+ Max.   : 1.0000             
+ 
+ fft.body.acc.jerk.mean.X
+ Min.   :-1.0000
+ 1st Qu.:-0.9912
+ Median :-0.9516
+ Mean   :-0.6567
+ 3rd Qu.:-0.3270
+ Max.   : 1.0000
+ 
+ fft.body.acc.jerk.mean.Y
+ Min.   :-1.0000         
+ 1st Qu.:-0.9848         
+ Median :-0.9257         
+ Mean   :-0.6290         
+ 3rd Qu.:-0.2638         
+ Max.   : 1.0000         
+ 
+ fft.body.acc.jerk.mean.Z
+ Min.   :-1.0000         
+ 1st Qu.:-0.9873         
+ Median :-0.9475         
+ Mean   :-0.7436         
+ 3rd Qu.:-0.5133         
+ Max.   : 1.0000         
+ 
+ fft.body.acc.jerk.std.X
+ Min.   :-1.0000        
+ 1st Qu.:-0.9920        
+ Median :-0.9562        
+ Mean   :-0.6550        
+ 3rd Qu.:-0.3203        
+ Max.   : 1.0000        
+ 
+ fft.body.acc.jerk.std.Y
+ Min.   :-1.0000        
+ 1st Qu.:-0.9865        
+ Median :-0.9280        
+ Mean   :-0.6122        
+ 3rd Qu.:-0.2361        
+ Max.   : 1.0000        
+ 
+ fft.body.acc.jerk.std.Z 
+ Min.   :-1.0000              
+ 1st Qu.:-0.9895              
+ Median :-0.9590              
+ Mean   :-0.7809              
+ 3rd Qu.:-0.5903              
+ Max.   : 1.0000              
+ 
+ fft.body.gyro.mean.X
+ Min.   :-1.0000
+ 1st Qu.:-0.9853
+ Median :-0.8917
+ Mean   :-0.6721
+ 3rd Qu.:-0.3837
+ Max.   : 1.0000
+ 
+ fft.body.gyro.mean.Y 
+ Min.   :-1.0000           
+ 1st Qu.:-0.9847           
+ Median :-0.9197           
+ Mean   :-0.7062           
+ 3rd Qu.:-0.4735           
+ Max.   : 1.0000           
+ 
+ fft.body.gyro.mean.Z
+ Min.   :-1.0000
+ 1st Qu.:-0.9851
+ Median :-0.8877
+ Mean   :-0.6442
+ 3rd Qu.:-0.3225
+ Max.   : 1.0000
+ 
+ fft.body.gyro.std.X 
+ Min.   :-1.0000         
+ 1st Qu.:-0.9881         
+ Median :-0.9053         
+ Mean   :-0.7386         
+ 3rd Qu.:-0.5225         
+ Max.   : 1.0000         
+ 
+ fft.body.gyro.std.Y
+ Min.   :-1.0000
+ 1st Qu.:-0.9808
+ Median :-0.9061
+ Mean   :-0.6742
+ 3rd Qu.:-0.4385
+ Max.   : 1.0000 
+ 
+ fft.body.gyro.std.Z 
+ Min.   :-1.0000           
+ 1st Qu.:-0.9862           
+ Median :-0.8915           
+ Mean   :-0.6904           
+ 3rd Qu.:-0.4168           
+ Max.   : 1.0000          
+ 
+ fft.body.acc.mag.mean
+ Min.   :-1.0000
+ 1st Qu.:-0.9847
+ Median :-0.8755
+ Mean   :-0.5860
+ 3rd Qu.:-0.2173
+ Max.   : 1.0000  
+ 
+ fft.body.acc.mag.std
+ Min.   :-1.0000     
+ 1st Qu.:-0.9829     
+ Median :-0.8547     
+ Mean   :-0.6595     
+ 3rd Qu.:-0.3823     
+ Max.   : 1.0000     
+ fft.body.body.acc.jerk.mag.mean
+ Min.   :-1.0000                
+ 1st Qu.:-0.9898                
+ Median :-0.9290                
+ Mean   :-0.6208                
+ 3rd Qu.:-0.2600                
+ Max.   : 1.0000                
+ 
+ fft.body.body.acc.jerk.mag.std
+ Min.   :-1.0000               
+ 1st Qu.:-0.9907               
+ Median :-0.9255               
+ Mean   :-0.6401               
+ 3rd Qu.:-0.3082               
+ Max.   : 1.0000               
+ 
+ fft.body.body.gyro.mag.mean
+ Min.   :-1.0000            
+ 1st Qu.:-0.9825            
+ Median :-0.8756            
+ Mean   :-0.6974            
+ 3rd Qu.:-0.4514            
+ Max.   : 1.0000            
+ 
+ fft.body.body.gyro.mag.std
+ Min.   :-1.0000           
+ 1st Qu.:-0.9781           
+ Median :-0.8275           
+ Mean   :-0.7000           
+ 3rd Qu.:-0.4713           
+ Max.   : 1.0000           
+ 
+ fft.body.body.gyro.jerk.mag.mean
+ Min.   :-1.0000                 
+ 1st Qu.:-0.9921                 
+ Median :-0.9453                 
+ Mean   :-0.7798                 
+ 3rd Qu.:-0.6122                 
+ Max.   : 1.0000                 
+ 
+ fft.body.body.gyro.jerk.mag.std
+ Min.   :-1.0000                
+ 1st Qu.:-0.9926                
+ Median :-0.9382                
+ Mean   :-0.7922                
+ 3rd Qu.:-0.6437                
+ Max.   : 1.0000                
+ activity.id      subject.id   
+ Min.   :1.000   Min.   : 1.00  
+ 1st Qu.:2.000   1st Qu.: 9.00  
+ Median :4.000   Median :17.00  
+ Mean   :3.625   Mean   :16.15  
+ 3rd Qu.:5.000   3rd Qu.:24.00  
+ Max.   :6.000   Max.   :30.00  
+ 
+ t.body.acc.mean.X.activity.id.avg
+ Min.   :0.2623                   
+ 1st Qu.:0.2686                   
+ Median :0.2731                   
+ Mean   :0.2743                   
+ 3rd Qu.:0.2792                   
+ Max.   :0.2881                   
+ 
+ t.body.acc.mean.Y.activity.id.avg
+ Min.   :-0.02592                 
+ 1st Qu.:-0.01832                 
+ Median :-0.01791                 
+ Mean   :-0.01774                 
+ 3rd Qu.:-0.01615                 
+ Max.   :-0.01269                 
+ 
+ t.body.acc.mean.Z.activity.id.avg
+ Min.   :-0.1205                  
+ 1st Qu.:-0.1089                  
+ Median :-0.1074                  
+ Mean   :-0.1089                  
+ 3rd Qu.:-0.1058                  
+ Max.   :-0.1055                  
+ 
+ t.body.acc.std.X.activity.id.avg
+ Min.   :-0.9844                 
+ 1st Qu.:-0.9834                 
+ Median :-0.9609                 
+ Mean   :-0.6078                 
+ 3rd Qu.:-0.2380                 
+ Max.   : 0.1008                 
+ 
+ t.body.acc.std.Y.activity.id.avg
+ Min.   :-0.94351                
+ 1st Qu.:-0.93488                
+ Median :-0.93251                
+ Mean   :-0.51019                
+ 3rd Qu.:-0.01603                
+ Max.   : 0.05955                
+ 
+ t.body.acc.std.Z.activity.id.avg
+ Min.   :-0.9481                 
+ 1st Qu.:-0.9399                 
+ Median :-0.9390                 
+ Mean   :-0.6131                 
+ 3rd Qu.:-0.1908                 
+ Max.   :-0.1754                 
+ 
+ t.gravity.acc.mean.X.activity.id.avg
+ Min.   :-0.3750                     
+ 1st Qu.: 0.8750                     
+ Median : 0.8797                     
+ Mean   : 0.6692                     
+ 3rd Qu.: 0.9350                     
+ Max.   : 0.9415                     
+ 
+ t.gravity.acc.mean.Y.activity.id.avg
+ Min.   :-0.281377                   
+ 1st Qu.:-0.196714                   
+ Median :-0.184247                   
+ Mean   : 0.004039                   
+ 3rd Qu.: 0.108714                   
+ Max.   : 0.622270                   
+ 
+ t.gravity.acc.mean.Z.activity.id.avg
+ Min.   :-0.14080                    
+ 1st Qu.:-0.05383                    
+ Median :-0.01405                    
+ Mean   : 0.09215                    
+ 3rd Qu.: 0.15377                    
+ Max.   : 0.55561                    
+ 
+ t.gravity.acc.std.X.activity.id.avg
+ Min.   :-0.9880                    
+ 1st Qu.:-0.9797                    
+ Median :-0.9776                    
+ Mean   :-0.9652                    
+ 3rd Qu.:-0.9482                    
+ Max.   :-0.9433                    
+ 
+ t.gravity.acc.std.Y.activity.id.avg
+ Min.   :-0.9694                    
+ 1st Qu.:-0.9669                    
+ Median :-0.9632                    
+ Mean   :-0.9544                    
+ 3rd Qu.:-0.9343                    
+ Max.   :-0.9255                    
+ 
+ t.gravity.acc.std.Z.activity.id.avg
+ Min.   :-0.9546                    
+ 1st Qu.:-0.9531                    
+ Median :-0.9519                    
+ Mean   :-0.9389                    
+ 3rd Qu.:-0.9125                    
+ Max.   :-0.9019                    
+ 
+ t.body.acc.jerk.mean.X.activity.id.avg
+ Min.   :0.07503                       
+ 1st Qu.:0.07588                       
+ Median :0.07672                       
+ Mean   :0.07894                       
+ 3rd Qu.:0.08185                       
+ Max.   :0.08923                       
+ 
+ t.body.acc.jerk.mean.Y.activity.id.avg
+ Min.   :0.0007467                     
+ 1st Qu.:0.0050469                     
+ Median :0.0088053                     
+ Mean   :0.0079481                     
+ 3rd Qu.:0.0111724                     
+ Max.   :0.0115062                     
+ 
+ t.body.acc.jerk.mean.Z.activity.id.avg
+ Min.   :-0.008729                     
+ 1st Qu.:-0.006010                     
+ Median :-0.004582                     
+ Mean   :-0.004675                     
+ 3rd Qu.:-0.002487                     
+ Max.   :-0.002319                     
+ 
+ t.body.acc.jerk.std.X.activity.id.avg
+ Min.   :-0.98500                     
+ 1st Qu.:-0.98038                     
+ Median :-0.97997                     
+ Mean   :-0.63978                     
+ 3rd Qu.:-0.26729                     
+ Max.   :-0.03388                     
+ 
+ t.body.acc.jerk.std.Y.activity.id.avg
+ Min.   :-0.97388                     
+ 1st Qu.:-0.97115                     
+ Median :-0.96434                     
+ Mean   :-0.60797                     
+ 3rd Qu.:-0.10314                     
+ Max.   :-0.07367                     
+ 
+ t.body.acc.jerk.std.Z.activity.id.avg
+ Min.   :-0.9823                      
+ 1st Qu.:-0.9795                      
+ Median :-0.9795                      
+ Mean   :-0.7628                      
+ 3rd Qu.:-0.4791                      
+ Max.   :-0.3887                      
+ 
+ t.body.gyro.mean.X.activity.id.avg
+ Min.   :-0.084035                 
+ 1st Qu.:-0.038431                 
+ Median :-0.026687                 
+ Mean   :-0.030982                 
+ 3rd Qu.:-0.016725                 
+ Max.   : 0.006824                 
+ 
+ t.body.gyro.mean.Y.activity.id.avg
+ Min.   :-0.09341                  
+ 1st Qu.:-0.08852                  
+ Median :-0.07212                  
+ Mean   :-0.07472                  
+ 3rd Qu.:-0.06771                  
+ Max.   :-0.05299                  
+ 
+ t.body.gyro.mean.Z.activity.id.avg
+ Min.   :0.05989                   
+ 1st Qu.:0.07778                   
+ Median :0.08014                   
+ Mean   :0.08836                   
+ 3rd Qu.:0.09468                   
+ Max.   :0.12589                   
+ 
+ t.body.gyro.std.X.activity.id.avg
+ Min.   :-0.9810                  
+ 1st Qu.:-0.9679                  
+ Median :-0.9455                  
+ Mean   :-0.7212                  
+ 3rd Qu.:-0.4676                  
+ Max.   :-0.3338                  
+ 
+ t.body.gyro.std.Y.activity.id.avg
+ Min.   :-0.9667                  
+ 1st Qu.:-0.9632                  
+ Median :-0.9613                  
+ Mean   :-0.6827                  
+ 3rd Qu.:-0.3442                  
+ Max.   :-0.3396                  
+ 
+ t.body.gyro.std.Z.activity.id.avg
+ Min.   :-0.9635                  
+ 1st Qu.:-0.9580                  
+ Median :-0.9571                  
+ Mean   :-0.6537                  
+ 3rd Qu.:-0.2728                  
+ Max.   :-0.2371                  
+ 
+ t.body.gyro.jerk.mean.X.activity.id.avg
+ Min.   :-0.11212                       
+ 1st Qu.:-0.10186                       
+ Median :-0.09973                       
+ Mean   :-0.09671                       
+ 3rd Qu.:-0.09430                       
+ Max.   :-0.07285                       
+ 
+ t.body.gyro.jerk.mean.Y.activity.id.avg
+ Min.   :-0.05126                       
+ 1st Qu.:-0.04457                       
+ Median :-0.04078                       
+ Mean   :-0.04232                       
+ 3rd Qu.:-0.03862                       
+ Max.   :-0.03820                       
+ 
+ t.body.gyro.jerk.mean.Z.activity.id.avg
+ Min.   :-0.06385                       
+ 1st Qu.:-0.05470                       
+ Median :-0.05258                       
+ Mean   :-0.05483                       
+ 3rd Qu.:-0.05210                       
+ Max.   :-0.05076                       
+ 
+ t.body.gyro.jerk.std.X.activity.id.avg
+ Min.   :-0.9857                       
+ 1st Qu.:-0.9761                       
+ Median :-0.9670                       
+ Mean   :-0.7313                       
+ 3rd Qu.:-0.3827                       
+ Max.   :-0.3762                       
+ 
+ t.body.gyro.jerk.std.Y.activity.id.avg
+ Min.   :-0.9865                       
+ 1st Qu.:-0.9805                       
+ Median :-0.9803                       
+ Mean   :-0.7861                       
+ 3rd Qu.:-0.5126                       
+ Max.   :-0.4659                       
+ 
+ t.body.gyro.jerk.std.Z.activity.id.avg
+ Min.   :-0.9848                       
+ 1st Qu.:-0.9838                       
+ Median :-0.9771                       
+ Mean   :-0.7399                       
+ 3rd Qu.:-0.4474                       
+ Max.   :-0.3265                       
+ 
+ t.body.acc.mag.mean.activity.id.avg
+ Min.   :-0.9546                    
+ 1st Qu.:-0.9542                    
+ Median :-0.9411                    
+ Mean   :-0.5482                    
+ 3rd Qu.:-0.1002                    
+ Max.   : 0.1012                    
+ 
+ t.body.acc.mag.std.activity.id.avg
+ Min.   :-0.9465                   
+ 1st Qu.:-0.9393                   
+ Median :-0.9322                   
+ Mean   :-0.5912                   
+ 3rd Qu.:-0.2499                   
+ Max.   : 0.1165                   
+ 
+ t.gravity.acc.mag.mean.activity.id.avg
+ Min.   :-0.9546                       
+ 1st Qu.:-0.9542                       
+ Median :-0.9411                       
+ Mean   :-0.5482                       
+ 3rd Qu.:-0.1002                       
+ Max.   : 0.1012                       
+ 
+ t.gravity.acc.mag.std.activity.id.avg
+ Min.   :-0.9465                      
+ 1st Qu.:-0.9393                      
+ Median :-0.9322                      
+ Mean   :-0.5912                      
+ 3rd Qu.:-0.2499                      
+ Max.   : 0.1165                      
+ 
+ t.body.acc.jerk.mag.mean.activity.id.avg
+ Min.   :-0.9824                         
+ 1st Qu.:-0.9792                         
+ Median :-0.9771                         
+ Mean   :-0.6494                         
+ 3rd Qu.:-0.2415                         
+ Max.   :-0.1118                         
+ 
+ t.body.acc.jerk.mag.std.activity.id.avg
+ Min.   :-0.97891                       
+ 1st Qu.:-0.97424                       
+ Median :-0.97145                       
+ Mean   :-0.62776                       
+ 3rd Qu.:-0.21456                       
+ Max.   :-0.01122                       
+ 
+ t.body.gyro.mag.mean.activity.id.avg
+ Min.   :-0.9467                     
+ 1st Qu.:-0.9422                     
+ Median :-0.9384                     
+ Mean   :-0.6052                     
+ 3rd Qu.:-0.1783                     
+ Max.   :-0.1298                     
+ 
+ t.body.gyro.mag.std.activity.id.avg
+ Min.   :-0.9512                    
+ 1st Qu.:-0.9406                    
+ Median :-0.9295                    
+ Mean   :-0.6625                    
+ 3rd Qu.:-0.3371                    
+ Max.   :-0.2514                    
+ 
+ t.body.gyro.jerk.mag.mean.activity.id.avg
+ Min.   :-0.9879                          
+ 1st Qu.:-0.9827                          
+ Median :-0.9787                          
+ Mean   :-0.7621                          
+ 3rd Qu.:-0.4605                          
+ Max.   :-0.4169                          
+ 
+ t.body.gyro.jerk.mag.std.activity.id.avg
+ Min.   :-0.9846                         
+ 1st Qu.:-0.9768                         
+ Median :-0.9735                         
+ Mean   :-0.7780                         
+ 3rd Qu.:-0.4988                         
+ Max.   :-0.4409                         
+ 
+ fft.body.acc.mean.X.activity.id.avg
+ Min.   :-0.98309                   
+ 1st Qu.:-0.98162                   
+ Median :-0.96681                   
+ Mean   :-0.62276                   
+ 3rd Qu.:-0.29341                   
+ Max.   : 0.03526                   
+ 
+ fft.body.acc.mean.Y.activity.id.avg
+ Min.   :-0.95268                   
+ 1st Qu.:-0.94792                   
+ Median :-0.94313                   
+ Mean   :-0.53749                   
+ 3rd Qu.:-0.04234                   
+ Max.   : 0.05668                   
+ 
+ fft.body.acc.mean.Z.activity.id.avg
+ Min.   :-0.9600                    
+ 1st Qu.:-0.9574                    
+ Median :-0.9570                    
+ Mean   :-0.6650                    
+ 3rd Qu.:-0.3418                    
+ Max.   :-0.2137                    
+ 
+ fft.body.acc.std.X.activity.id.avg
+ Min.   :-0.9859                   
+ 1st Qu.:-0.9837                   
+ Median :-0.9590                   
+ Mean   :-0.6034                   
+ 3rd Qu.:-0.2189                   
+ Max.   : 0.1219                   
+ 
+ fft.body.acc.std.Y.activity.id.avg
+ Min.   :-0.942461                 
+ 1st Qu.:-0.932534                 
+ Median :-0.931133                 
+ Mean   :-0.528420                 
+ 3rd Qu.:-0.021811                 
+ Max.   :-0.008234                 
+ 
+ fft.body.acc.std.Z.activity.id.avg
+ Min.   :-0.9456                   
+ 1st Qu.:-0.9354                   
+ Median :-0.9343                   
+ Mean   :-0.6179                   
+ 3rd Qu.:-0.2459                   
+ Max.   :-0.1466                   
+ 
+ fft.body.acc.jerk.mean.X.activity.id.avg
+ Min.   :-0.9852                         
+ 1st Qu.:-0.9802                         
+ Median :-0.9800                         
+ Mean   :-0.6567                         
+ 3rd Qu.:-0.3111                         
+ Max.   :-0.0723                         
+ 
+ fft.body.acc.jerk.mean.Y.activity.id.avg
+ Min.   :-0.9740                         
+ 1st Qu.:-0.9714                         
+ Median :-0.9645                         
+ Mean   :-0.6290                         
+ 3rd Qu.:-0.1704                         
+ Max.   :-0.1164                         
+ 
+ fft.body.acc.jerk.mean.Z.activity.id.avg
+ Min.   :-0.9796                         
+ 1st Qu.:-0.9766                         
+ Median :-0.9762                         
+ Mean   :-0.7436                         
+ 3rd Qu.:-0.4510                         
+ Max.   :-0.3332                         
+ 
+ fft.body.acc.jerk.std.X.activity.id.avg
+ Min.   :-0.98618                       
+ 1st Qu.:-0.98246                       
+ Median :-0.98183                       
+ Mean   :-0.65498                       
+ 3rd Qu.:-0.28790                       
+ Max.   :-0.08219                       
+ 
+ fft.body.acc.jerk.std.Y.activity.id.avg
+ Min.   :-0.97575                       
+ 1st Qu.:-0.97305                       
+ Median :-0.96683                       
+ Mean   :-0.61224                       
+ 3rd Qu.:-0.09142                       
+ Max.   :-0.09087                       
+ 
+ fft.body.acc.jerk.std.Z.activity.id.avg
+ Min.   :-0.9837                        
+ 1st Qu.:-0.9815                        
+ Median :-0.9810                        
+ Mean   :-0.7809                        
+ 3rd Qu.:-0.5063                        
+ Max.   :-0.4436                        
+ 
+ fft.body.gyro.mean.X.activity.id.avg
+ Min.   :-0.9773                     
+ 1st Qu.:-0.9629                     
+ Median :-0.9437                     
+ Mean   :-0.6721                     
+ 3rd Qu.:-0.3482                     
+ Max.   :-0.2179                     
+ 
+ fft.body.gyro.mean.Y.activity.id.avg
+ Min.   :-0.9725                     
+ 1st Qu.:-0.9676                     
+ Median :-0.9653                     
+ Mean   :-0.7062                     
+ 3rd Qu.:-0.3884                     
+ Max.   :-0.3176                     
+ 
+ fft.body.gyro.mean.Z.activity.id.avg
+ Min.   :-0.9642                     
+ 1st Qu.:-0.9610                     
+ Median :-0.9584                     
+ Mean   :-0.6442                     
+ 3rd Qu.:-0.2969                     
+ Max.   :-0.1656                     
+ 
+ fft.body.gyro.std.X.activity.id.avg
+ Min.   :-0.9823                    
+ 1st Qu.:-0.9697                    
+ Median :-0.9470                    
+ Mean   :-0.7386                    
+ 3rd Qu.:-0.4953                    
+ Max.   :-0.3751                    
+ 
+ fft.body.gyro.std.Y.activity.id.avg
+ Min.   :-0.9640                    
+ 1st Qu.:-0.9614                    
+ Median :-0.9595                    
+ Mean   :-0.6742                    
+ 3rd Qu.:-0.3320                    
+ Max.   :-0.2932                    
+ 
+ fft.body.gyro.std.Z.activity.id.avg
+ Min.   :-0.9667                    
+ 1st Qu.:-0.9610                    
+ Median :-0.9607                    
+ Mean   :-0.6904                    
+ 3rd Qu.:-0.3804                    
+ Max.   :-0.2920                    
+ 
+ fft.body.acc.mag.mean.activity.id.avg
+ Min.   :-0.9559                      
+ 1st Qu.:-0.9524                      
+ Median :-0.9477                      
+ Mean   :-0.5860                      
+ 3rd Qu.:-0.2620                      
+ Max.   : 0.1428                      
+ 
+ fft.body.acc.mag.std.activity.id.avg
+ Min.   :-0.94960                    
+ 1st Qu.:-0.94200                    
+ Median :-0.93492                    
+ Mean   :-0.65953                    
+ 3rd Qu.:-0.36175                    
+ Max.   :-0.07543                    
+ 
+ fft.body.body.acc.jerk.mag.mean.activity.id.avg
+ Min.   :-0.978684                              
+ 1st Qu.:-0.974300                              
+ Median :-0.971090                              
+ Mean   :-0.620790                              
+ 3rd Qu.:-0.214654                              
+ Max.   : 0.004763                              
+ 
+ fft.body.body.acc.jerk.mag.std.activity.id.avg
+ Min.   :-0.97815                              
+ 1st Qu.:-0.97318                              
+ Median :-0.97095                              
+ Mean   :-0.64008                              
+ 3rd Qu.:-0.22162                              
+ Max.   :-0.04227                              
+ 
+ fft.body.body.gyro.mag.mean.activity.id.avg
+ Min.   :-0.9643                            
+ 1st Qu.:-0.9549                            
+ Median :-0.9479                            
+ Mean   :-0.6974                            
+ 3rd Qu.:-0.4092                            
+ Max.   :-0.2895                            
+ 
+ fft.body.body.gyro.mag.std.activity.id.avg
+ Min.   :-0.9516                           
+ 1st Qu.:-0.9421                           
+ Median :-0.9306                           
+ Mean   :-0.7000                           
+ 3rd Qu.:-0.3814                           
+ Max.   :-0.3612                           
+ 
+ fft.body.body.gyro.jerk.mag.mean.activity.id.avg
+ Min.   :-0.9853                                 
+ 1st Qu.:-0.9780                                 
+ Median :-0.9749                                 
+ Mean   :-0.7798                                 
+ 3rd Qu.:-0.5155                                 
+ Max.   :-0.4380                                 
+ 
+ fft.body.body.gyro.jerk.mag.std.activity.id.avg
+ Min.   :-0.9845                                
+ 1st Qu.:-0.9766                                
+ Median :-0.9735                                
+ Mean   :-0.7922                                
+ 3rd Qu.:-0.5144                                
+ Max.   :-0.4864                                
+ 
+ t.body.acc.mean.X.subject.id.avg
+ Min.   :0.2657                  
+ 1st Qu.:0.2724                  
+ Median :0.2748                  
+ Mean   :0.2743                  
+ 3rd Qu.:0.2768                  
+ Max.   :0.2792                  
+ 
+ t.body.acc.mean.Y.subject.id.avg
+ Min.   :-0.02095                
+ 1st Qu.:-0.01847                
+ Median :-0.01767                
+ Mean   :-0.01774                
+ 3rd Qu.:-0.01683                
+ Max.   :-0.01481                
+ 
+ t.body.acc.mean.Z.subject.id.avg
+ Min.   :-0.1183                 
+ 1st Qu.:-0.1097                 
+ Median :-0.1087                 
+ Mean   :-0.1089                 
+ 3rd Qu.:-0.1073                 
+ Max.   :-0.1010                 
+ 
+ t.body.acc.std.X.subject.id.avg
+ Min.   :-0.7163                
+ 1st Qu.:-0.6490                
+ Median :-0.6085                
+ Mean   :-0.6078                
+ 3rd Qu.:-0.5747                
+ Max.   :-0.5051                
+ 
+ t.body.acc.std.Y.subject.id.avg
+ Min.   :-0.6499                
+ 1st Qu.:-0.5737                
+ Median :-0.5190                
+ Mean   :-0.5102                
+ 3rd Qu.:-0.4800                
+ Max.   :-0.3494                
+ 
+ t.body.acc.std.Z.subject.id.avg
+ Min.   :-0.7095                
+ 1st Qu.:-0.6725                
+ Median :-0.6471                
+ Mean   :-0.6131                
+ 3rd Qu.:-0.5872                
+ Max.   :-0.2935                
+ 
+ t.gravity.acc.mean.X.subject.id.avg
+ Min.   :0.4753                     
+ 1st Qu.:0.6458                     
+ Median :0.6813                     
+ Mean   :0.6692                     
+ 3rd Qu.:0.6992                     
+ Max.   :0.7449                     
+ 
+ t.gravity.acc.mean.Y.subject.id.avg
+ Min.   :-0.147578                  
+ 1st Qu.:-0.046745                  
+ Median : 0.016206                  
+ Mean   : 0.004039                  
+ 3rd Qu.: 0.052739                  
+ Max.   : 0.115490                  
+ 
+ t.gravity.acc.mean.Z.subject.id.avg
+ Min.   :-0.16118                   
+ 1st Qu.: 0.04021                   
+ Median : 0.07234                   
+ Mean   : 0.09215                   
+ 3rd Qu.: 0.14117                   
+ Max.   : 0.23923                   
+ 
+ t.gravity.acc.std.X.subject.id.avg
+ Min.   :-0.9801                   
+ 1st Qu.:-0.9718                   
+ Median :-0.9658                   
+ Mean   :-0.9652                   
+ 3rd Qu.:-0.9588                   
+ Max.   :-0.9412                   
+ 
+ t.gravity.acc.std.Y.subject.id.avg
+ Min.   :-0.9725                   
+ 1st Qu.:-0.9604                   
+ Median :-0.9571                   
+ Mean   :-0.9544                   
+ 3rd Qu.:-0.9509                   
+ Max.   :-0.9011                   
+ 
+ t.gravity.acc.std.Z.subject.id.avg
+ Min.   :-0.9594                   
+ 1st Qu.:-0.9490                   
+ Median :-0.9416                   
+ Mean   :-0.9389                   
+ 3rd Qu.:-0.9294                   
+ Max.   :-0.8807                   
+ 
+ t.body.acc.jerk.mean.X.subject.id.avg
+ Min.   :0.07017                      
+ 1st Qu.:0.07748                      
+ Median :0.07886                      
+ Mean   :0.07894                      
+ 3rd Qu.:0.08141                      
+ Max.   :0.08422                      
+ 
+ t.body.acc.jerk.mean.Y.subject.id.avg
+ Min.   :0.0004793                    
+ 1st Qu.:0.0039690                    
+ Median :0.0073044                    
+ Mean   :0.0079481                    
+ 3rd Qu.:0.0115812                    
+ Max.   :0.0200471                    
+ 
+ t.body.acc.jerk.mean.Z.subject.id.avg
+ Min.   :-0.0196720                   
+ 1st Qu.:-0.0073738                   
+ Median :-0.0044099                   
+ Mean   :-0.0046747                   
+ 3rd Qu.:-0.0007177                   
+ Max.   : 0.0027029                   
+ 
+ t.body.acc.jerk.std.X.subject.id.avg
+ Min.   :-0.7968                     
+ 1st Qu.:-0.6828                     
+ Median :-0.6319                     
+ Mean   :-0.6398                     
+ 3rd Qu.:-0.5824                     
+ Max.   :-0.5247                     
+ 
+ t.body.acc.jerk.std.Y.subject.id.avg
+ Min.   :-0.7351                     
+ 1st Qu.:-0.6748                     
+ Median :-0.6088                     
+ Mean   :-0.6080                     
+ 3rd Qu.:-0.5605                     
+ Max.   :-0.4544                     
+ 
+ t.body.acc.jerk.std.Z.subject.id.avg
+ Min.   :-0.8607                     
+ 1st Qu.:-0.7961                     
+ Median :-0.7783                     
+ Mean   :-0.7628                     
+ 3rd Qu.:-0.7285                     
+ Max.   :-0.6030                     
+ 
+ t.body.gyro.mean.X.subject.id.avg
+ Min.   :-0.070132                
+ 1st Qu.:-0.051703                
+ Median :-0.027635                
+ Mean   :-0.030982                
+ 3rd Qu.:-0.018502                
+ Max.   : 0.003591                
+ 
+ t.body.gyro.mean.Y.subject.id.avg
+ Min.   :-0.09549                 
+ 1st Qu.:-0.08274                 
+ Median :-0.07743                 
+ Mean   :-0.07472                 
+ 3rd Qu.:-0.06782                 
+ Max.   :-0.04715                 
+ 
+ t.body.gyro.mean.Z.subject.id.avg
+ Min.   :0.06067                  
+ 1st Qu.:0.08417                  
+ Median :0.08728                  
+ Mean   :0.08836                  
+ 3rd Qu.:0.09607                  
+ Max.   :0.10909                  
+ 
+ t.body.gyro.std.X.subject.id.avg
+ Min.   :-0.8045                 
+ 1st Qu.:-0.7590                 
+ Median :-0.7106                 
+ Mean   :-0.7212                 
+ 3rd Qu.:-0.6846                 
+ Max.   :-0.6378                 
+ 
+ t.body.gyro.std.Y.subject.id.avg
+ Min.   :-0.8101                 
+ 1st Qu.:-0.7649                 
+ Median :-0.7088                 
+ Mean   :-0.6827                 
+ 3rd Qu.:-0.6263                 
+ Max.   :-0.3990                 
+ 
+ t.body.gyro.std.Z.subject.id.avg
+ Min.   :-0.7474                 
+ 1st Qu.:-0.7139                 
+ Median :-0.6698                 
+ Mean   :-0.6537                 
+ 3rd Qu.:-0.5999                 
+ Max.   :-0.3645                 
+ 
+ t.body.gyro.jerk.mean.X.subject.id.avg
+ Min.   :-0.10926                      
+ 1st Qu.:-0.10497                      
+ Median :-0.09711                      
+ Mean   :-0.09671                      
+ 3rd Qu.:-0.08931                      
+ Max.   :-0.07311                      
+ 
+ t.body.gyro.jerk.mean.Y.subject.id.avg
+ Min.   :-0.04939                      
+ 1st Qu.:-0.04413                      
+ Median :-0.04166                      
+ Mean   :-0.04232                      
+ 3rd Qu.:-0.04009                      
+ Max.   :-0.03832                      
+ 
+ t.body.gyro.jerk.mean.Z.subject.id.avg
+ Min.   :-0.06220                      
+ 1st Qu.:-0.05781                      
+ Median :-0.05556                      
+ Mean   :-0.05483                      
+ 3rd Qu.:-0.05279                      
+ Max.   :-0.04507                      
+ 
+ t.body.gyro.jerk.std.X.subject.id.avg
+ Min.   :-0.8583                      
+ 1st Qu.:-0.7806                      
+ Median :-0.7287                      
+ Mean   :-0.7313                      
+ 3rd Qu.:-0.6984                      
+ Max.   :-0.5460                      
+ 
+ t.body.gyro.jerk.std.Y.subject.id.avg
+ Min.   :-0.9026                      
+ 1st Qu.:-0.8536                      
+ Median :-0.8112                      
+ Mean   :-0.7861                      
+ 3rd Qu.:-0.7190                      
+ Max.   :-0.5460                      
+ 
+ t.body.gyro.jerk.std.Z.subject.id.avg
+ Min.   :-0.8386                      
+ 1st Qu.:-0.7956                      
+ Median :-0.7494                      
+ Mean   :-0.7399                      
+ 3rd Qu.:-0.6868                      
+ Max.   :-0.5269                      
+ 
+ t.body.acc.mag.mean.subject.id.avg
+ Min.   :-0.6584                   
+ 1st Qu.:-0.6009                   
+ Median :-0.5399                   
+ Mean   :-0.5482                   
+ 3rd Qu.:-0.5113                   
+ Max.   :-0.4533                   
+ 
+ t.body.acc.mag.std.subject.id.avg
+ Min.   :-0.6897                  
+ 1st Qu.:-0.6361                  
+ Median :-0.5912                  
+ Mean   :-0.5912                  
+ 3rd Qu.:-0.5540                  
+ Max.   :-0.4741                  
+ 
+ t.gravity.acc.mag.mean.subject.id.avg
+ Min.   :-0.6584                      
+ 1st Qu.:-0.6009                      
+ Median :-0.5399                      
+ Mean   :-0.5482                      
+ 3rd Qu.:-0.5113                      
+ Max.   :-0.4533                      
+ 
+ t.gravity.acc.mag.std.subject.id.avg
+ Min.   :-0.6897                     
+ 1st Qu.:-0.6361                     
+ Median :-0.5912                     
+ Mean   :-0.5912                     
+ 3rd Qu.:-0.5540                     
+ Max.   :-0.4741                     
+ 
+ t.body.acc.jerk.mag.mean.subject.id.avg
+ Min.   :-0.7834                        
+ 1st Qu.:-0.6971                        
+ Median :-0.6502                        
+ Mean   :-0.6494                        
+ 3rd Qu.:-0.5893                        
+ Max.   :-0.5342                        
+ 
+ t.body.acc.jerk.mag.std.subject.id.avg
+ Min.   :-0.7805                       
+ 1st Qu.:-0.6877                       
+ Median :-0.6102                       
+ Mean   :-0.6278                       
+ 3rd Qu.:-0.5886                       
+ Max.   :-0.5029                       
+ 
+ t.body.gyro.mag.mean.subject.id.avg
+ Min.   :-0.7182                    
+ 1st Qu.:-0.6762                    
+ Median :-0.6177                    
+ Mean   :-0.6052                    
+ 3rd Qu.:-0.5489                    
+ Max.   :-0.4165                    
+ 
+ t.body.gyro.mag.std.subject.id.avg
+ Min.   :-0.7848                   
+ 1st Qu.:-0.7430                   
+ Median :-0.6753                   
+ Mean   :-0.6625                   
+ 3rd Qu.:-0.5987                   
+ Max.   :-0.4715                   
+ 
+ t.body.gyro.jerk.mag.mean.subject.id.avg
+ Min.   :-0.8604                         
+ 1st Qu.:-0.8078                         
+ Median :-0.7859                         
+ Mean   :-0.7621                         
+ 3rd Qu.:-0.7074                         
+ Max.   :-0.6219                         
+ 
+ t.body.gyro.jerk.mag.std.subject.id.avg
+ Min.   :-0.8886                        
+ 1st Qu.:-0.8371                        
+ Median :-0.8037                        
+ Mean   :-0.7780                        
+ 3rd Qu.:-0.7256                        
+ Max.   :-0.5739                        
+ 
+ fft.body.acc.mean.X.subject.id.avg
+ Min.   :-0.7484                   
+ 1st Qu.:-0.6542                   
+ Median :-0.6195                   
+ Mean   :-0.6228                   
+ 3rd Qu.:-0.5818                   
+ Max.   :-0.5062                   
+ 
+ fft.body.acc.mean.Y.subject.id.avg
+ Min.   :-0.6716                   
+ 1st Qu.:-0.6000                   
+ Median :-0.5315                   
+ Mean   :-0.5375                   
+ 3rd Qu.:-0.4947                   
+ Max.   :-0.3749                   
+ 
+ fft.body.acc.mean.Z.subject.id.avg
+ Min.   :-0.7612                   
+ 1st Qu.:-0.7189                   
+ Median :-0.6837                   
+ Mean   :-0.6650                   
+ 3rd Qu.:-0.6350                   
+ Max.   :-0.4407                   
+ 
+ fft.body.acc.std.X.subject.id.avg
+ Min.   :-0.7052                  
+ 1st Qu.:-0.6478                  
+ Median :-0.6031                  
+ Mean   :-0.6034                  
+ 3rd Qu.:-0.5723                  
+ Max.   :-0.4928                  
+ 
+ fft.body.acc.std.Y.subject.id.avg
+ Min.   :-0.6618                  
+ 1st Qu.:-0.5947                  
+ Median :-0.5321                  
+ Mean   :-0.5284                  
+ 3rd Qu.:-0.5016                  
+ Max.   :-0.3768                  
+ 
+ fft.body.acc.std.Z.subject.id.avg
+ Min.   :-0.7185                  
+ 1st Qu.:-0.6921                  
+ Median :-0.6521                  
+ Mean   :-0.6179                  
+ 3rd Qu.:-0.5990                  
+ Max.   :-0.2750                  
+ 
+ fft.body.acc.jerk.mean.X.subject.id.avg
+ Min.   :-0.8041                        
+ 1st Qu.:-0.7146                        
+ Median :-0.6520                        
+ Mean   :-0.6567                        
+ 3rd Qu.:-0.6048                        
+ Max.   :-0.5472                        
+ 
+ fft.body.acc.jerk.mean.Y.subject.id.avg
+ Min.   :-0.7486                        
+ 1st Qu.:-0.6945                        
+ Median :-0.6282                        
+ Mean   :-0.6290                        
+ 3rd Qu.:-0.5829                        
+ Max.   :-0.4959                        
+ 
+ fft.body.acc.jerk.mean.Z.subject.id.avg
+ Min.   :-0.8495                        
+ 1st Qu.:-0.7791                        
+ Median :-0.7554                        
+ Mean   :-0.7436                        
+ 3rd Qu.:-0.7108                        
+ Max.   :-0.5789                        
+ 
+ fft.body.acc.jerk.std.X.subject.id.avg
+ Min.   :-0.8077                       
+ 1st Qu.:-0.7041                       
+ Median :-0.6516                       
+ Mean   :-0.6550                       
+ 3rd Qu.:-0.6025                       
+ Max.   :-0.5440                       
+ 
+ fft.body.acc.jerk.std.Y.subject.id.avg
+ Min.   :-0.7392                       
+ 1st Qu.:-0.6757                       
+ Median :-0.6094                       
+ Mean   :-0.6122                       
+ 3rd Qu.:-0.5621                       
+ Max.   :-0.4378                       
+ 
+ fft.body.acc.jerk.std.Z.subject.id.avg
+ Min.   :-0.8705                       
+ 1st Qu.:-0.8183                       
+ Median :-0.7860                       
+ Mean   :-0.7809                       
+ 3rd Qu.:-0.7448                       
+ Max.   :-0.6275                       
+ 
+ fft.body.gyro.mean.X.subject.id.avg
+ Min.   :-0.7898                    
+ 1st Qu.:-0.7099                    
+ Median :-0.6674                    
+ Mean   :-0.6721                    
+ 3rd Qu.:-0.6396                    
+ Max.   :-0.5372                    
+ 
+ fft.body.gyro.mean.Y.subject.id.avg
+ Min.   :-0.8315                    
+ 1st Qu.:-0.7769                    
+ Median :-0.7448                    
+ Mean   :-0.7062                    
+ 3rd Qu.:-0.6304                    
+ Max.   :-0.4978                    
+ 
+ fft.body.gyro.mean.Z.subject.id.avg
+ Min.   :-0.7563                    
+ 1st Qu.:-0.7095                    
+ Median :-0.6574                    
+ Mean   :-0.6442                    
+ 3rd Qu.:-0.6026                    
+ Max.   :-0.4239                    
+ 
+ fft.body.gyro.std.X.subject.id.avg
+ Min.   :-0.8122                   
+ 1st Qu.:-0.7792                   
+ Median :-0.7347                   
+ Mean   :-0.7386                   
+ 3rd Qu.:-0.7039                   
+ Max.   :-0.6661                   
+ 
+ fft.body.gyro.std.Y.subject.id.avg
+ Min.   :-0.8094                   
+ 1st Qu.:-0.7613                   
+ Median :-0.7023                   
+ Mean   :-0.6742                   
+ 3rd Qu.:-0.5889                   
+ Max.   :-0.3489                   
+ 
+ fft.body.gyro.std.Z.subject.id.avg
+ Min.   :-0.7712                   
+ 1st Qu.:-0.7492                   
+ Median :-0.6989                   
+ Mean   :-0.6904                   
+ 3rd Qu.:-0.6505                   
+ Max.   :-0.4077                   
+ 
+ fft.body.acc.mag.mean.subject.id.avg
+ Min.   :-0.6977                     
+ 1st Qu.:-0.6462                     
+ Median :-0.5791                     
+ Mean   :-0.5860                     
+ 3rd Qu.:-0.5290                     
+ Max.   :-0.4740                     
+ 
+ fft.body.acc.mag.std.subject.id.avg
+ Min.   :-0.7349                    
+ 1st Qu.:-0.6954                    
+ Median :-0.6631                    
+ Mean   :-0.6595                    
+ 3rd Qu.:-0.6393                    
+ Max.   :-0.5483                    
+ 
+ fft.body.body.acc.jerk.mag.mean.subject.id.avg
+ Min.   :-0.7792                               
+ 1st Qu.:-0.6797                               
+ Median :-0.6092                               
+ Mean   :-0.6208                               
+ 3rd Qu.:-0.5732                               
+ Max.   :-0.4949                               
+ 
+ fft.body.body.acc.jerk.mag.std.subject.id.avg
+ Min.   :-0.7835                              
+ 1st Qu.:-0.6837                              
+ Median :-0.6411                              
+ Mean   :-0.6401                              
+ 3rd Qu.:-0.5974                              
+ Max.   :-0.5167                              
+ 
+ fft.body.body.gyro.mag.mean.subject.id.avg
+ Min.   :-0.8171                           
+ 1st Qu.:-0.7576                           
+ Median :-0.7173                           
+ Mean   :-0.6974                           
+ 3rd Qu.:-0.6363                           
+ Max.   :-0.5347                           
+ 
+ fft.body.body.gyro.mag.std.subject.id.avg
+ Min.   :-0.8021                          
+ 1st Qu.:-0.7778                          
+ Median :-0.6996                          
+ Mean   :-0.7000                          
+ 3rd Qu.:-0.6574                          
+ Max.   :-0.5169                          
+ 
+ fft.body.body.gyro.jerk.mag.mean.subject.id.avg
+ Min.   :-0.8847                                
+ 1st Qu.:-0.8368                                
+ Median :-0.8069                                
+ Mean   :-0.7798                                
+ 3rd Qu.:-0.7176                                
+ Max.   :-0.5841                                
+ 
+ fft.body.body.gyro.jerk.mag.std.subject.id.avg
+ Min.   :-0.9022                               
+ 1st Qu.:-0.8483                               
+ Median :-0.8100                               
+ Mean   :-0.7922                               
+ 3rd Qu.:-0.7442                               
+ Max.   :-0.5937                               
