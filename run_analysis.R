@@ -196,5 +196,4 @@ for(i in 1:66){
 
 # 6 OUtput the tidy dataset
 #writing tidy dataset to file "tidy_data.txt".
-write.table(dt, file="tidy_data.txt", col.names = FALSE, row.names = FALSE)
-
+write.table(dt, file="tidy_data.txt", row.names = FALSE)

@@ -859,7 +859,7 @@ ends with .subject.id.avg are the freatures grouped by subjects.
 	NUMMERIC
 	Fast Fourier Transform Body Body Gyroscope Jerk Magnitude Standard Deviation Subject Id Average
 	
-	
+(see also summary of data)	
 
 #####License:
 ========
