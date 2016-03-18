@@ -2,7 +2,7 @@
 
 
 ####Author:tosayto
-####Date:2016-03-16
+####Date:2016-03-18
 
 #####Source of input:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 #####Software version: RStudio Version 0.99.491 (R x64 3.2.2)
@@ -225,5 +225,5 @@ for(i in 1:66){
 ### 6 Output the tidy dataset
 
 #####writing tidy dataset to file "tidy_data.txt".
-write.table(dt, file="tidy_data.txt", col.names = FALSE, row.names = FALSE)
+write.table(dt, file="tidy_data.txt", row.names = FALSE)
 
