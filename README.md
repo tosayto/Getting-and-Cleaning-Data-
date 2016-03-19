@@ -229,7 +229,7 @@ for(i in 1:66){
 }
 ```
 ####Calculating mean of each variable per subject and adding to dataset
-
+```
 expr<-NULL
 
 for(i in 1:66){
